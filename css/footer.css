@@ -1,0 +1,32 @@
+.feed{
+    padding-left:20px ;
+    border: 2px solid;
+    border-radius: 30px ;
+    border-color:cornflowerblue;
+    font-size: larger;
+    background-position: left;
+    border-radius: 30px;
+   }
+   .feeding:hover{
+    background-color: black;
+   }
+   #footer {
+    color: azure;
+    background-color:rgba(0, 153, 255, 0.26);
+    text-align: center;
+    /* background-image: url(/imag/feedbacktext.jpg); */
+    padding: 5px 5px 5px 5px;
+    border-radius: 30px;
+   }
+   .foot{
+    color: azure;
+    background-color:rgba(0, 195, 255, 0.219);
+    text-align: center;
+    padding: 3px 5px 3px 5px;
+    border-radius: 30px;
+    margin-left: 20%;
+    margin-right:20%;
+    border: 2px dotted royalblue;
+    font-family: cursive;
+    color: whitesmoke;
+   }

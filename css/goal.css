@@ -1,0 +1,119 @@
+
+@import url("/css/footer.css");
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.goals {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.goal {
+    position: relative;
+    width: 100%;
+    padding-top: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.goal h2 {
+    position: absolute;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.goal:hover {
+    transform: scale(1.05);
+}
+
+/* Background images for each goal */
+#goal1 {
+    background-image: url('/goals/img/E_SDG_Icons-01.jpg');
+}
+
+#goal2 {
+    background-image: url('/goals/img/E_SDG_Icons-02.jpg');
+}
+
+#goal3 {
+    background-image: url('/goals/img/E_SDG_Icons-03.jpg');
+}
+
+#goal4 {
+    background-image: url('/goals/img/E_SDG_Icons-04.jpg');
+}
+
+#goal5 {
+    background-image: url('/goals/img/E_SDG_Icons-05.jpg');
+}
+
+#goal6 {
+    background-image: url('/goals/img/E_SDG_Icons-06.jpg');
+}
+
+#goal7 {
+    background-image: url('/goals/img/E_SDG_Icons-07.jpg');
+}
+
+#goal8 {
+    background-image: url('/goals/img/E_SDG_Icons-08.jpg');
+}
+
+#goal9 {
+    background-image: url('/goals/img/E_SDG_Icons-09.jpg');
+}
+
+#goal10 {
+    background-image: url('/goals/img/E_SDG_Icons-10.jpg');
+}
+
+#goal11 {
+    background-image: url('/goals/img/E_SDG_Icons-11.jpg');
+}
+
+#goal12 {
+    background-image: url('/goals/img/E_SDG_Icons-12.jpg');
+}
+
+#goal13 {
+    background-image: url('/goals/img/E_SDG_Icons-13.jpg');
+}
+
+#goal14 {
+    background-image: url('/goals/img/E_SDG_Icons-14.jpg');
+}
+
+#goal15 {
+    background-image: url('/goals/img/E_SDG_Icons-15.jpg');
+}
+
+#goal16 {
+    background-image: url('/goals/img/E_SDG_Icons-16.jpg');
+}
+
+#goal17 {
+    background-image: url('/goals/img/E_SDG_Icons-17.jpg');
+}

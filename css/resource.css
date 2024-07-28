@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url("/images/resources.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    background: rgba(255, 255, 255, 0.164);
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 1000px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.intro, .conclusion {
+    text-align: center;
+    padding: 40px;
+    background: rgba(173, 216, 230, 0.5);
+    border-radius: 12px;
+    margin-bottom: 30px;
+    animation: fadeIn 2s ease-out;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+p {
+    color: #555;
+    margin: 15px 0;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+.resource {
+    margin: 30px 0;
+}
+
+.resource-item {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.resource-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    margin-bottom: 20px;
+    position: relative;
+    animation: slideIn 1.5s ease-out;
+}
+
+h3 {
+    margin-top: 0;
+    position: relative;
+    animation: slideIn 1.5s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@media (min-width: 768px) {
+    .content {
+        padding: 50px;
+    }
+
+    .resource-item {
+        padding: 35px;
+    }
+}

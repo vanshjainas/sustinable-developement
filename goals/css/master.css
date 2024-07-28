@@ -1,0 +1,64 @@
+@import url("/css/navigation.css");
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text color for readability */
+}
+
+main {
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position:center ;
+    background-attachment: fixed;
+}
+
+.intro, .info, .action, .details {
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Slight shadow for better visibility */
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.intro h1 {
+    color: #4CAF50; /* Green text color for the main heading */
+}
+
+.info h2, .action h2, .details h2 {
+    color: #e0e0e0; /* Light gray color for section headings */
+}
+
+button {
+    background-color: rgba(76, 175, 80, 0.8); /* Semi-transparent green background */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: rgba(76, 175, 80, 1); /* Fully opaque green on hover */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
